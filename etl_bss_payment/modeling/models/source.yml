@@ -1,0 +1,20 @@
+sources:
+- database: vplus_db_premium
+  name: rawdata_users
+  schema: raw_data
+  tables:
+  - name: bss_payment_products
+  - name: bss_payment_packages
+  - name: bss_payment_groups
+  - name: bss_payment_methods
+  - name: bss_payment_product_sku
+  - name: bss_payment_voucher_contracts
+  - name: bss_payment_transactions
+  - name: bss_payment_transaction_log
+  - name: bss_payment_voucher_partners
+  - name: bss_payment_voucher_generated
+  - name: bss_payment_voucher_redeemed
+  - name: bss_payment_subscriptions
+  - name: bss_payment_subscribe_transactions
+  - name: bss_payment_voucher
+version: 2

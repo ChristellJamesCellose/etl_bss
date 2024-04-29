@@ -1,0 +1,11 @@
+name: 'modeling'
+version: '1.0.0'
+config-version: 2
+
+profile: 'modeling'
+
+model-paths: ["models"]
+
+models:
+  models:
+    +materialized: view
