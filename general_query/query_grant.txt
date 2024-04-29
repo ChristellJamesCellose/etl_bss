@@ -1,0 +1,8 @@
+GRANT USAGE ON SCHEMA analytics,reporting,staging,raw_data,catalog_history
+TO GROUP vplus_admin;
+
+GRANT all ON all TABLES IN SCHEMA analytics,reporting,staging,raw_data,catalog_history
+TO GROUP vplus_admin;
+
+GRANT all ON SCHEMA analytics,reporting,staging,raw_data,catalog_history 
+TO GROUP vplus_admin;

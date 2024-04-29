@@ -1,0 +1,3 @@
+{main_query}
+OFFSET {ofc} ROWS
+FETCH NEXT {batch_size} ROWS ONLY

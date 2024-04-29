@@ -1,0 +1,4 @@
+select {main}
+from {table_name}
+where {filters}
+order by {pk}

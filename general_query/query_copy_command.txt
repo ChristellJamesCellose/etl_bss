@@ -1,0 +1,6 @@
+COPY {0}.{1}
+FROM 's3://visionplus-etl-datateam/{2}'
+IAM_ROLE '{3}'  
+IGNOREHEADER as 1
+DELIMITER ','
+csv

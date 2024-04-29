@@ -1,0 +1,2 @@
+alter table {table_schema}.{table_name}
+add column {add_on_query}

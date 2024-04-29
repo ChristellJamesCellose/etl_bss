@@ -1,0 +1,8 @@
+	SELECT kcu.column_name
+FROM information_schema.key_column_usage kcu
+LEFT JOIN information_schema.table_constraints tc
+     ON kcu.constraint_name = tc.constraint_name
+WHERE tc.constraint_type = 'PRIMARY KEY'
+AND kcu.table_schema = 'public' 
+AND kcu.table_name = '{0}'
+
